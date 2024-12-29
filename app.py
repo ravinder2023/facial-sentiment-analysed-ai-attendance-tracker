@@ -206,7 +206,7 @@ def view_attendance_records():
 
 # --- Main Logic ---
 if __name__ == "__main__":
-    st.title("Face and Emotion Recognition Attendance System by Ravinder Kaur")
+    st.title("Face and Emotion Recognition Attendance System by Ravinder")
     # Larger title
     st.markdown("<h2 style='text-align: center;'>Can Detect:</h2>", unsafe_allow_html=True)
     # Smaller subtitle
