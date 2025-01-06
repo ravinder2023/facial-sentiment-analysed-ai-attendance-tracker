@@ -206,11 +206,11 @@ def view_attendance_records():
 
 # --- Main Logic ---
 if __name__ == "__main__":
-    st.title("Face and Emotion Recognition Attendance System by Ravinder")
+    st.title("EMOTION-MARK-AI (FACIAL SENTIMENT ANALYSIZED ATTENDANCE TRACKER)")
     # Larger title
-    st.markdown("<h2 style='text-align: center;'>Can Detect:</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Can Recognise Face and Detect:</h2>", unsafe_allow_html=True)
     # Smaller subtitle
-    st.markdown("<h3 style='text-align: center;'>angry, fear, happy, neutral, sad, surprise</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>Emotions: angry, fear, happy, neutral, sad, surprise </h3>", unsafe_allow_html=True)
 
     app_mode = st.sidebar.selectbox("Select Mode", ["Recognize Face & Emotion", "Add New Face", "View Records"])
 
