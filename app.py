@@ -21,11 +21,11 @@ if "camera_active" not in st.session_state:
     st.session_state.camera_active = False
 
 # --- Password Protection (Optional) ---
-password = st.text_input("Enter password", type="password")
+#password = st.text_input("Enter password", type="password")
 
 # Stop if the password is incorrect
-if password != "ravinder":
-    st.stop()
+#if password != "ravinder":
+#    st.stop()
 
 # --- Database Setup ---
 conn = sqlite3.connect('attendance.db')
